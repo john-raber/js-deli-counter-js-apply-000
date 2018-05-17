@@ -2,7 +2,7 @@ var katzDeliLine= [];
 
 var number = 1
 
-function takeANumber(katzDeliLine, name) {
+function takeANumber(katzDeliLine) {
   number += 1
   
   katzDeliLine.push(name);
