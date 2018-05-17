@@ -4,9 +4,9 @@ var number = 1
 
 function takeANumber(katzDeliLine) {
   number += 1
+  var time = Date.now()
   
-  
-  katzDeliLine.push(number);
+  katzDeliLine.push({number:time});
   return `Welcome, you are number ${katzDeliLine.indexOf(number) + 1} in line.`;
 }
 
